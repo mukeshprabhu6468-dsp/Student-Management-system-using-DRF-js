@@ -150,7 +150,7 @@ The backend will normally be available at:
 
 Open this address in your browser.
 
-🔐 JWT Authentication
+🔐 JWT Authentication:
 
 The authentication system uses JWT tokens.
 
@@ -200,11 +200,11 @@ Example:
 
 The API provides CRUD operations for student records.
 
-Operation	      Method	      Purpose
-Create Student	  POST	          Add a new student
-Get Students	  GET	          Display all students
+Operation	        Method	      Purpose
+Create Student	  POST	        Add a new student
+Get Students	    GET	          Display all students
 Get Student	      GET	          Display one student
-Update Student	  PUT/PATCH	      Edit student information
+Update Student	  PUT/PATCH	    Edit student information
 Delete Student	  DELETE	      Remove a student
 
 
