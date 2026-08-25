@@ -264,6 +264,6 @@ API documentation using Swagger/OpenAPI
 MUKESH S.,
 Python Full Stack Developer
 
-📄 License
+📄 License:
 
 This project is created for learning and development purposes.
