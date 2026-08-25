@@ -1,0 +1,282 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.header h1{
+    color:#333;
+}
+
+/* Button */
+
+.btn{
+    background:#007bff;
+    color:white;
+    padding:10px 18px;
+    text-decoration:none;
+    border-radius:6px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#0056b3;
+}
+
+/* Search */
+
+.search-box{
+    margin-bottom:20px;
+}
+
+.search-box input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    outline:none;
+    font-size:16px;
+}
+
+
+/* Table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table thead{
+    background:#007bff;
+    color:white;
+}
+
+table th{
+    padding:12px;
+}
+
+table td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+table tbody tr:hover{
+    background:#f8f9fa;
+}
+
+/* Action Buttons */
+
+.edit-btn{
+    background:#28a745;
+    color:white;
+    padding:6px 12px;
+    text-decoration:none;
+    border-radius:4px;
+    margin-right:5px;
+}
+
+.edit-btn:hover{
+    background:#1e7e34;
+}
+
+.delete-btn{
+    background:#dc3545;
+    color:white;
+    border:none;
+    padding:7px 12px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:#b52a37;
+}
+
+/* Form */
+
+.form-box{
+    width:500px;
+    max-width:100%;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.form-box h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.form-group{
+    margin-bottom:15px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:6px;
+    font-weight:500;
+}
+
+.form-group input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    outline:none;
+}
+
+.form-group input:focus{
+    border-color:#007bff;
+}
+
+.save-btn{
+    width:100%;
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.save-btn:hover{
+    background:#0056b3;
+}
+
+/* Back Button */
+
+.back-btn{
+    display:inline-block;
+    margin-top:15px;
+    text-decoration:none;
+    color:#007bff;
+}
+
+.back-btn:hover{
+    text-decoration:underline;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.header{
+    flex-direction:column;
+    gap:15px;
+}
+
+table{
+    display:block;
+    overflow-x:auto;
+}
+
+.container{
+    width:95%;
+}
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Login Box */
+.login-container {
+    width: 380px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+/* Heading */
+.login-container h2{
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 30px;
+}
+/* Input fields */
+.login-container input {
+    width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+/* Input focus */
+.login-container input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+}
+/* Login Button */
+.login-container button{
+    width: 100%;
+    padding: 13px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+/* Button hover */
+.login-container button:hover {
+    background-color: #5568d9;
+    transform: translateY(-2px);
+}
+/* Mobile Responsive */
+@media (max-width: 500px) {
+    .login-container {
+        width: 90%;
+        padding: 30px 20px;
+    }
+}
