@@ -95,7 +95,7 @@ Student Management Using DRF/
 
 
 
-🔐 JWT Authentication:
+🔐 JWT Authentication
 
 The authentication system uses JWT tokens.
 
@@ -196,7 +196,6 @@ Sensitive information such as passwords, secret keys, and database credentials s
 
    Possible improvements include:
 
-<<<<<<< HEAD
   * Student search
   * Pagination
   * Student profile pages
@@ -204,21 +203,3 @@ Sensitive information such as passwords, secret keys, and database credentials s
   * Admin dashboard
   * PostgreSQL/MySQL database
   * API documentation using Swagger/OpenAPI
-=======
-Student search
-Pagination
-Student profile pages
-Role-based authentication
-Admin dashboard
-PostgreSQL/MySQL database
-API documentation using Swagger/OpenAPI
-
-
-👨‍💻 Author:
-MUKESH S.,
-Python Full Stack Developer
-
-📄 License:
-
-This project is created for learning and development purposes.
->>>>>>> 498365d5449cde3582a69d535a3c08b6066a6463
