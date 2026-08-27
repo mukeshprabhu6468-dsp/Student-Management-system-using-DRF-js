@@ -1,24 +1,24 @@
 Student Management Using Django REST Framework:
 
-A Student Management System built using Python, Django, Django REST Framework (DRF), JWT Authentication, and a frontend interface.
-
-This project provides REST APIs to manage student records and includes authentication to protect the API endpoints.
+       A Student Management System built using Python, Django, Django REST Framework (DRF), JWT Authentication, 
+  and a frontend interface. This project provides REST APIs to manage student records and includes authentication 
+  to protect the API endpoints.
 
 📌 Project Overview:
 
-The Student Management System allows users to manage student information through REST APIs.
+       The Student Management System allows users to manage student information through REST APIs.
 
-The system supports:
+       The system supports:
 
-->User authentication
-->JWT access and refresh tokens
-->Add new students
-->View all students
-->View individual student details
-->Edit student information
-->Delete student records
-->Frontend interface for interacting with the APIs
-->Database storage using SQLite
+  ->User authentication
+  ->JWT access and refresh tokens
+  ->Add new students
+  ->View all students
+  ->View individual student details
+  ->Edit student information
+  ->Delete student records
+  ->Frontend interface for interacting with the APIs
+  ->Database storage using SQLite
 
 
 🚀 Features:
@@ -94,61 +94,6 @@ Student Management Using DRF/
 └── README.md
 
 
-⚙️ Installation:
-
-1. Clone the repository
-
-git clone https://github.com/YOUR-USERNAME/student-management-drf.git
-
-
-2. Open the project
-
-cd student-management-drf
-
-
-3. Create a virtual environment
-
-=>python -m venv .venv
-
-
-4. Activate the virtual environment
-
-Windows
-=>.venv\Scripts\activate
-
-
-5. Install dependencies
-
-If the project contains a requirements.txt file:
-
-=>pip install -r requirements.txt
-
-Otherwise, install the required packages:
-
-=>pip install django
-=>pip install djangorestframework
-=>pip install djangorestframework-simplejwt
-=>pip install django-cors-headers
-
-
-🗄️ Database Setup
-
-Run the migrations:
-
-=>python manage.py makemigrations
-=>python manage.py migrate
-
-▶️ Run the Project:
-
-Start the Django development server:
-
-=>python manage.py runserver
-
-The backend will normally be available at:
-
-=>http://127.0.0.1:8000/
-
-Open this address in your browser.
 
 🔐 JWT Authentication
 
@@ -200,12 +145,12 @@ Example:
 
 The API provides CRUD operations for student records.
 
-Operation	      Method	      Purpose
-Create Student	  POST	          Add a new student
-Get Students	  GET	          Display all students
-Get Student	      GET	          Display one student
-Update Student	  PUT/PATCH	      Edit student information
-Delete Student	  DELETE	      Remove a student
+Operation	        Method	          Purpose
+Create Student	     POST	          Add a new student
+Get Students	     GET	          Display all students
+Get Student	         GET	          Display one student
+Update Student	     PUT/PATCH	      Edit student information
+Delete Student	     DELETE	          Remove a student
 
 
 🧪 Testing the APIs:
@@ -224,9 +169,9 @@ For protected endpoints:
 
 🖥️ Frontend:
 
-The project also contains a frontend interface that communicates with the Django REST APIs.
+  The project also contains a frontend interface that communicates with the Django REST APIs.
 
-The frontend can be used to:
+  The frontend can be used to:
 
  * Display students
  * Add students
@@ -237,7 +182,7 @@ The frontend can be used to:
 
 🔒 Security:
 
-The following files and folders are excluded from Git using .gitignore:
+  The following files and folders are excluded from Git using .gitignore:
 
  * Virtual environment
  * SQLite database
@@ -249,21 +194,12 @@ Sensitive information such as passwords, secret keys, and database credentials s
 
 🎯 Future Improvements:
 
-Possible improvements include:
+   Possible improvements include:
 
-Student search
-Pagination
-Student profile pages
-Role-based authentication
-Admin dashboard
-PostgreSQL/MySQL database
-API documentation using Swagger/OpenAPI
-
-
-👨‍💻 Author:
-MUKESH S.,
-Python Full Stack Developer
-
-📄 License
-
-This project is created for learning and development purposes.
+  * Student search
+  * Pagination
+  * Student profile pages
+  * Role-based authentication
+  * Admin dashboard
+  * PostgreSQL/MySQL database
+  * API documentation using Swagger/OpenAPI
